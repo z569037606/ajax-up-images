@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/djzuploadimg.js"></script>
+    <link rel="stylesheet" href="css/djzuploadimg.css">
+    <script>
+        $(function(){
+            djzupimg('/?c=upload&f=index')
+            djzclone()
+        })
+    </script>
+</head>
+
+<body>
+<form enctype="multipart/form-data" id="upForm">
+<div id="djzupload"></div>
+<div id="djzclones">新增(样式可改)</div>
+</form>
+</body>
+</html>
